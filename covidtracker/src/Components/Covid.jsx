@@ -82,6 +82,8 @@ const Covid = () => {
                 </div>
             </div> 
             </li>
+
+              
         </ul>
         <ul>
             <li className = "card">
@@ -89,7 +91,7 @@ const Covid = () => {
                 <div className = "card__inner">
                     <p className = "card__name"><span> LAST</span>UPDATED</p>
                     {/* <p className = "card__total card__small"> INDIA </p> */}
-                    <p className = "card__total card__small"> {data.lastupdatedtime} </p>
+                    <p className = "card__total card__small"> {data.lastupdatedtime } </p>
                 </div>
             </div> 
             </li>
